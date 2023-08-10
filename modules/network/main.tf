@@ -103,7 +103,7 @@ resource "aws_nat_gateway" "nat_gw" {
   depends_on = [aws_internet_gateway.gw]
 }
 
-############ OutPuts ###########
-output "List_of_AZs" {
-  value = data.aws_availability_zones.available
-}
+# ############ OutPuts ###########
+# output "List_of_AZs" {
+#   value = data.aws_availability_zones.available
+# }
